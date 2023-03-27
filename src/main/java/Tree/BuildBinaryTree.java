@@ -3,9 +3,9 @@ package Tree;
 
 import java.util.Arrays;
 
-public class BuildTree {
+public class BuildBinaryTree {
     private int  indx;
-    public BuildTree(){
+    public BuildBinaryTree(){
         int indx =0;
     }
 

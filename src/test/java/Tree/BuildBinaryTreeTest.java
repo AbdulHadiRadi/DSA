@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class BuildTreeTest {
+class BuildBinaryTreeTest {
 
     private Node preRoot, inRoot, postRoot;
     @BeforeEach
@@ -14,9 +14,9 @@ class BuildTreeTest {
         int[]  a = {10, 7,11, 5, 9, 11, 8, 20,15, 30};
         int [] b = {7,8,4,9,10,12,6,11,20};
         int[]  c = {1, 7, 5, 50, 40, 10};
-        preRoot = new BuildTree().preOrder(a);
-        inRoot = new BuildTree().inOrder(b);
-        postRoot = new BuildTree().postOrder(c);
+        preRoot = new BuildBinaryTree().preOrder(a);
+        inRoot = new BuildBinaryTree().inOrder(b);
+        postRoot = new BuildBinaryTree().postOrder(c);
     }
 
     @AfterEach
