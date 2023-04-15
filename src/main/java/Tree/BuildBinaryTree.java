@@ -9,10 +9,10 @@ public class BuildBinaryTree {
         int indx =0;
     }
 
-    public Node preOrder(int [] a){
+    public TreeNode preOrder(int [] a){
         if(a==null || a.length==0) return null;
         int val = a[0];
-        Node root = new Node(val);
+        TreeNode root = new TreeNode(val);
         indx = 1;
         while(indx<a.length){
             if(a[indx]>val) break;
@@ -34,21 +34,21 @@ public class BuildBinaryTree {
 //        root. right = buildPreOrder(a, maxValue);
 //        return root;
 //    }
-    public Node inOrder(int [] a){
+    public TreeNode inOrder(int [] a){
         if(a.length==0) return null;
         int mid = a.length/2;
         int val = a[mid];
-        Node root = new Node(val);
+        TreeNode root = new TreeNode(val);
         root.left = inOrder(Arrays.copyOfRange(a,0,mid));
         root.right = inOrder(Arrays.copyOfRange(a, mid+1, a.length));
         return root;
     }
 
-    public Node postOrder(int[] a) {
+    public TreeNode postOrder(int[] a) {
         int length = a.length;
         if(length==0) return null;
         int val = a[length-1];
-        Node root = new Node(val);
+        TreeNode root = new TreeNode(val);
        // if(a.length==1) return root;
         indx = 0;
         while(indx<length-1){

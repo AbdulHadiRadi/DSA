@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69117ab2-d918-4c6b-a473-62b8ccae6a49" name="Changes" comment="Building Binary Tree from given Pre,in and post order array.">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/BuildTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/PrintTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tree/BuildTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/BuildGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/PrintGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/Trees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Graph/BuildGraphTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/BuildBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/BuildBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/PrintTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/PrintTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tree/BuildBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tree/BuildBinaryTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2abd70df-0777-43ed-85c8-a0ac702c83f6" />
+        <option name="url" value="https://github.com/AbdulHadiRadi/DSA.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -49,33 +62,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Graph" />
       <recent name="Tree" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="BuildTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.PrintGraph">
+    <configuration name="BuildGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.BuildGraph" />
+      <module name="DSA_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.PrintGraph" />
+      <module name="DSA_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildBinaryTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSA_JAVA" />
       <extension name="coverage">
         <pattern>
@@ -84,7 +125,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tree" />
-      <option name="MAIN_CLASS_NAME" value="Tree.BuildTreeTest" />
+      <option name="MAIN_CLASS_NAME" value="Tree.BuildBinaryTreeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,7 +133,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BuildTreeTest" />
+        <item itemvalue="Application.PrintGraph" />
+        <item itemvalue="Application.BuildGraph" />
+        <item itemvalue="JUnit.BuildBinaryTreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +161,19 @@
       <workItem from="1679798898675" duration="672000" />
       <workItem from="1679823985030" duration="5076000" />
       <workItem from="1679838413054" duration="4353000" />
-      <workItem from="1679940494790" duration="992000" />
+      <workItem from="1679940494790" duration="1753000" />
+      <workItem from="1679950436838" duration="1487000" />
+      <workItem from="1680063105905" duration="18000" />
+      <workItem from="1680120822407" duration="557000" />
+      <workItem from="1680252236058" duration="332000" />
+      <workItem from="1680549811491" duration="790000" />
+      <workItem from="1680552359326" duration="210000" />
+      <workItem from="1680553205314" duration="1959000" />
+      <workItem from="1680561376375" duration="2877000" />
+      <workItem from="1681066669619" duration="601000" />
+      <workItem from="1681092217480" duration="1000" />
+      <workItem from="1681092504098" duration="3000" />
+      <workItem from="1681462724460" duration="15443000" />
     </task>
     <task id="LOCAL-00001" summary="Building Binary Tree from given Pre,in and post order array.">
       <created>1679941480187</created>
@@ -127,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679941480187</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Building Binary Tree from given Pre,in and post order array.">
+      <created>1679942930993</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679942930994</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
