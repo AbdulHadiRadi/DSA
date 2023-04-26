@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69117ab2-d918-4c6b-a473-62b8ccae6a49" name="Changes" comment="Creating Graph, printing neighbour and implementing BFS and DFS.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/CycleDetect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/Paths.java" afterDir="false" />
+    <list default="true" id="69117ab2-d918-4c6b-a473-62b8ccae6a49" name="Changes" comment="Bellman ford and Kosaraju algorithms">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/Conected.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Graph/BuildGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/BuildGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/PrintGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/TraverseGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Graph/BuildGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Graph/BuildGraphTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/CycleDetect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/CycleDetect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/Paths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/Paths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/TraverseGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/TraverseGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,9 +84,22 @@
       <recent name="Tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TraverseGraph">
-    <configuration name="BuildGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.BuildGraph" />
+  <component name="RunManager" selected="Application.Conected">
+    <configuration name="Conected" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.Conected" />
+      <module name="DSA_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CycleDetect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.CycleDetect" />
       <module name="DSA_JAVA" />
       <extension name="coverage">
         <pattern>
@@ -112,6 +124,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Paths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.Paths" />
+      <module name="DSA_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TraverseGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graph.TraverseGraph" />
       <module name="DSA_JAVA" />
@@ -125,27 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BuildBinaryTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DSA_JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tree" />
-      <option name="MAIN_CLASS_NAME" value="Tree.BuildBinaryTreeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Conected" />
+        <item itemvalue="Application.Paths" />
         <item itemvalue="Application.TraverseGraph" />
+        <item itemvalue="Application.CycleDetect" />
         <item itemvalue="Application.Global" />
-        <item itemvalue="Application.BuildGraph" />
-        <item itemvalue="JUnit.BuildBinaryTreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +199,13 @@
       <workItem from="1681557405754" duration="13702000" />
       <workItem from="1681635337005" duration="1389000" />
       <workItem from="1681686921253" duration="7709000" />
-      <workItem from="1681721009132" duration="8302000" />
+      <workItem from="1681721009132" duration="9036000" />
+      <workItem from="1681879212391" duration="16537000" />
+      <workItem from="1681942458517" duration="682000" />
+      <workItem from="1681961812328" duration="1179000" />
+      <workItem from="1682215955337" duration="5003000" />
+      <workItem from="1682304313589" duration="13913000" />
+      <workItem from="1682469449584" duration="5550000" />
     </task>
     <task id="LOCAL-00001" summary="Building Binary Tree from given Pre,in and post order array.">
       <created>1679941480187</created>
@@ -211,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681539829063</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cycle Detection, topology sort and Dijkstra's Algorithms">
+      <created>1681774412695</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681774412695</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +244,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Building Binary Tree from given Pre,in and post order array." />
     <MESSAGE value="Creating Graph, printing neighbour and implementing BFS and DFS." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Graph, printing neighbour and implementing BFS and DFS." />
+    <MESSAGE value="Cycle Detection, topology sort and Dijkstra's Algorithms" />
+    <MESSAGE value="Bellman ford and Kosaraju algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bellman ford and Kosaraju algorithms" />
   </component>
 </project>

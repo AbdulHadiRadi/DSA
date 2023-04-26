@@ -1,9 +1,6 @@
 package Graph;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 public class TraverseGraph {
     public static void getNeighbours(ArrayList<Edge> [] graph,int val){
@@ -31,7 +28,7 @@ public class TraverseGraph {
         }
     }
     public static void dfs(ArrayList<Edge>[] graph,  boolean [] visited, int cur){
-        System.out.println(cur);
+        System.out.print(cur);
         visited[cur] = true;
         for(int i=0; i<graph[cur].size(); i++){
             Edge e = graph[cur].get(i);
@@ -44,25 +41,29 @@ public class TraverseGraph {
 
 
     public static void main(String [] args){
-        BuildGraph graphBuilder = new BuildGraph(7);
-        ArrayList<Edge> [] graph =  graphBuilder.buildGraph();
-        //getNeighbours(graph,2);
+        BuildGraph graphBuilder = new BuildGraph(6);
+        ArrayList<Edge> [] graph =  graphBuilder.buildDirectedGraph();
+//        System.out.println("neighbours");
+//        getNeighbours(graph,2);
         boolean [] visited = new boolean[graph.length];
-        Paths.shortedPath(graph, visited,0);
-//        boolean [] rec = new boolean[graph.length];
-//        boolean res = false;
- //       Stack<Integer> stack= new Stack<>();
-//        for(int i=0; i< visited.length; i++){
-//            if(!visited[i]) {
-//                CycleDetect.topologicalSort(graph, visited, stack, 0);
-//                //bfs(graph, visited, 0);
-//                //dfs(graph, visited, 0)
+//        System.out.println("BFS");
+//        for(int i=0; i< visited.length; i++) {
+//            if (!visited[i]) {
+//                bfs(graph, visited, 0);
+//                if(i!=0) {
+//                    System.out.println(i+" The graph is not connected!");
+//                }
 //            }
 //        }
-//        while(!stack.isEmpty()) {
-//            System.out.println(stack.pop());
-//        }
-        //Paths.getAllPaths(graph, visited, "0", 0, 5);
-
+        System.out.println("DFS");
+        //boolean [] visited2 = new boolean[graph.length];
+        for(int i=0; i< visited.length; i++) {
+            if (!visited[i]) {
+                dfs(graph, visited, 0);
+                if(i!=0) {
+                    System.out.println(" The graph is not connected!");
+                }
+            }
+        }
     }
 }
