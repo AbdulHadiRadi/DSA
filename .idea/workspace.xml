@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69117ab2-d918-4c6b-a473-62b8ccae6a49" name="Changes" comment="Bellman ford and Kosaraju algorithms">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/Conected.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/ArticularPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/Bridge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Graph/BuildGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/BuildGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Graph/CycleDetect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/CycleDetect.java" afterDir="false" />
@@ -84,7 +85,33 @@
       <recent name="Tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Conected">
+  <component name="RunManager" selected="Application.ArticularPoint">
+    <configuration name="ArticularPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.ArticularPoint" />
+      <module name="DSA_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bridge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.Bridge" />
+      <module name="DSA_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Conected" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graph.Conected" />
       <module name="DSA_JAVA" />
@@ -111,32 +138,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Global" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Global" />
-      <module name="DSA_JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Paths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.Paths" />
-      <module name="DSA_JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TraverseGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graph.TraverseGraph" />
       <module name="DSA_JAVA" />
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Conected" />
-        <item itemvalue="Application.Paths" />
-        <item itemvalue="Application.TraverseGraph" />
+        <item itemvalue="Application.ArticularPoint" />
+        <item itemvalue="Application.Bridge" />
         <item itemvalue="Application.CycleDetect" />
-        <item itemvalue="Application.Global" />
+        <item itemvalue="Application.TraverseGraph" />
+        <item itemvalue="Application.Conected" />
       </list>
     </recent_temporary>
   </component>
@@ -206,6 +207,13 @@
       <workItem from="1682215955337" duration="5003000" />
       <workItem from="1682304313589" duration="13913000" />
       <workItem from="1682469449584" duration="5550000" />
+      <workItem from="1682509593921" duration="1087000" />
+      <workItem from="1682567586754" duration="11986000" />
+      <workItem from="1682626894117" duration="1600000" />
+      <workItem from="1682657888684" duration="96000" />
+      <workItem from="1682658037025" duration="6475000" />
+      <workItem from="1682742718247" duration="598000" />
+      <workItem from="1683038296220" duration="6608000" />
     </task>
     <task id="LOCAL-00001" summary="Building Binary Tree from given Pre,in and post order array.">
       <created>1679941480187</created>
@@ -235,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681774412695</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Bellman ford and Kosaraju algorithms">
+      <created>1682510008561</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682510008561</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

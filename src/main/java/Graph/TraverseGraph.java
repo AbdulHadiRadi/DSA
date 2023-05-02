@@ -42,19 +42,20 @@ public class TraverseGraph {
 
     public static void main(String [] args){
         BuildGraph graphBuilder = new BuildGraph(6);
-        ArrayList<Edge> [] graph =  graphBuilder.buildDirectedGraph();
-//        System.out.println("neighbours");
-//        getNeighbours(graph,2);
+        ArrayList<Edge> [] graph =  graphBuilder.buildUndirectedGraph();
+        System.out.println("neighbours");
+        getNeighbours(graph,2);
         boolean [] visited = new boolean[graph.length];
-//        System.out.println("BFS");
-//        for(int i=0; i< visited.length; i++) {
-//            if (!visited[i]) {
-//                bfs(graph, visited, 0);
-//                if(i!=0) {
-//                    System.out.println(i+" The graph is not connected!");
-//                }
-//            }
-//        }
+        System.out.println("BFS");
+        for(int i=0; i< visited.length; i++) {
+            if (!visited[i]) {
+                bfs(graph, visited, 0);
+                if(i!=0) {
+                    System.out.println(i+" The graph is not connected!");
+                }
+            }
+        }
+        visited = new boolean [graph.length];
         System.out.println("DFS");
         //boolean [] visited2 = new boolean[graph.length];
         for(int i=0; i< visited.length; i++) {

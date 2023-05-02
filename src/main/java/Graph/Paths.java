@@ -34,7 +34,7 @@ public class Paths {
         }
         @Override
         public int compareTo(Pair p2){
-            return this.dist-p2.dist;// ascending
+            return this.dist-p2.dist;// ascending order
         }
     }
     //shortest Path's Algo O(e+ elogv)
@@ -123,6 +123,7 @@ public class Paths {
                 visited[node] = true;
                 result.add(new Edge(pair.src,node,pair.dist));
                 mstCost += pair.dist;
+
                 for(int i=0; i<graph[node].size(); i++){
                     Edge edge =  graph[node].get(i);
                     if(!visited[edge.destination]){
@@ -138,15 +139,18 @@ public class Paths {
         BuildGraph graphBuilder = new BuildGraph(6);
         ArrayList<Edge> [] graph =  graphBuilder.buildUndirectedGraph();
         boolean [] visited = new boolean[graph.length];
-//        System.out.println("Get ALl the Paths");
-//        getAllPaths(graph, visited, "0", 0, 5);
+        System.out.println("Get ALl the Paths");
+        getAllPaths(graph, visited, "0", 0, 5);
+
         visited = new boolean[graph.length];
         System.out.println("Get the shortest Paths DIJKSTRA");
         dijkstra(graph, visited,0);
-//        System.out.println("Get the shortest Paths Bellman Ford");
-//        bellmanford(graph, 0);
-//        System.out.println("PrimeAlgo");
-//        primsAlgo(graph,0);
+
+        System.out.println("Get the shortest Paths Bellman Ford");
+        bellmanford(graph, 0);
+
+        System.out.println("PrimeAlgo");
+        primsAlgo(graph,0);
 
     }
 }
