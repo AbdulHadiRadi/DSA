@@ -54,8 +54,12 @@ public class ArticularPoint {
         }
     }
     public static void main(String [] args){
-        BuildGraph builder = new BuildGraph(5);
-        ArrayList<Edge> graph [] = builder.buildUndirectedGraph();
-        getArticularPoint(graph);
+//        BuildGraph builder = new BuildGraph(5);
+//        ArrayList<Edge> graph [] = builder.buildUndirectedGraph();
+//        getArticularPoint(graph);
+        //System.out.println(3^1);
+        boolean r [] =  new boolean [5];
+
+        System.out.println(r[4]==true);
     }
 }

@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69117ab2-d918-4c6b-a473-62b8ccae6a49" name="Changes" comment="Bellman ford and Kosaraju algorithms">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/ArticularPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/Bridge.java" afterDir="false" />
+    <list default="true" id="69117ab2-d918-4c6b-a473-62b8ccae6a49" name="Changes" comment="Bridge and Articular Point class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BitManipulation/Bit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/BuildGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/BuildGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/CycleDetect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/CycleDetect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/Paths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/Paths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/TraverseGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/TraverseGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/ArticularPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/ArticularPoint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -85,7 +82,7 @@
       <recent name="Tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArticularPoint">
+  <component name="RunManager" selected="Application.Bit">
     <configuration name="ArticularPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graph.ArticularPoint" />
       <module name="DSA_JAVA" />
@@ -99,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bridge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.Bridge" />
+    <configuration name="Bit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BitManipulation.Bit" />
       <module name="DSA_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graph.*" />
+          <option name="PATTERN" value="BitManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Conected" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.Conected" />
+    <configuration name="Bridge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.Bridge" />
       <module name="DSA_JAVA" />
       <extension name="coverage">
         <pattern>
@@ -138,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TraverseGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.TraverseGraph" />
+    <configuration name="Human" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.Human" />
       <module name="DSA_JAVA" />
       <extension name="coverage">
         <pattern>
@@ -153,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bit" />
+        <item itemvalue="Application.Human" />
         <item itemvalue="Application.ArticularPoint" />
         <item itemvalue="Application.Bridge" />
         <item itemvalue="Application.CycleDetect" />
-        <item itemvalue="Application.TraverseGraph" />
-        <item itemvalue="Application.Conected" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +210,25 @@
       <workItem from="1682657888684" duration="96000" />
       <workItem from="1682658037025" duration="6475000" />
       <workItem from="1682742718247" duration="598000" />
-      <workItem from="1683038296220" duration="6608000" />
+      <workItem from="1683038296220" duration="7806000" />
+      <workItem from="1683124468648" duration="199000" />
+      <workItem from="1683357961706" duration="3145000" />
+      <workItem from="1684306121560" duration="25000" />
+      <workItem from="1685028404910" duration="7728000" />
+      <workItem from="1685709028550" duration="2646000" />
+      <workItem from="1685784739238" duration="2100000" />
+      <workItem from="1686122420731" duration="4778000" />
+      <workItem from="1686140244631" duration="4285000" />
+      <workItem from="1686301722073" duration="598000" />
+      <workItem from="1686344151535" duration="1459000" />
+      <workItem from="1686468282082" duration="6640000" />
+      <workItem from="1686555550856" duration="587000" />
+      <workItem from="1686632820615" duration="1807000" />
+      <workItem from="1686656456725" duration="3090000" />
+      <workItem from="1687350534073" duration="605000" />
+      <workItem from="1687520795866" duration="5750000" />
+      <workItem from="1687595886726" duration="5860000" />
+      <workItem from="1687693904909" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="Building Binary Tree from given Pre,in and post order array.">
       <created>1679941480187</created>
@@ -250,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682510008561</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Bridge and Articular Point class">
+      <created>1683046085100</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683046085100</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +283,12 @@
     <MESSAGE value="Creating Graph, printing neighbour and implementing BFS and DFS." />
     <MESSAGE value="Cycle Detection, topology sort and Dijkstra's Algorithms" />
     <MESSAGE value="Bellman ford and Kosaraju algorithms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bellman ford and Kosaraju algorithms" />
+    <MESSAGE value="Bridge and Articular Point class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bridge and Articular Point class" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DSA_JAVA$Bit.ic" NAME="Bit Coverage Results" MODIFIED="1687524269953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>BitManipulation.*</FILTER>
+    </SUITE>
   </component>
 </project>
