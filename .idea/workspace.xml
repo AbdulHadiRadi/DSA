@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69117ab2-d918-4c6b-a473-62b8ccae6a49" name="Changes" comment="Bridge and Articular Point class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BitManipulation/Bit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/ArticularPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/ArticularPoint.java" afterDir="false" />
-    </list>
+    <list default="true" id="69117ab2-d918-4c6b-a473-62b8ccae6a49" name="Changes" comment="Bit Manipulation in Java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -229,6 +225,7 @@
       <workItem from="1687520795866" duration="5750000" />
       <workItem from="1687595886726" duration="5860000" />
       <workItem from="1687693904909" duration="598000" />
+      <workItem from="1687694771543" duration="879000" />
     </task>
     <task id="LOCAL-00001" summary="Building Binary Tree from given Pre,in and post order array.">
       <created>1679941480187</created>
@@ -272,11 +269,36 @@
       <option name="project" value="LOCAL" />
       <updated>1683046085100</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Bit Manipulation in Java">
+      <created>1687694873704</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687694873704</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Bit Manipulation in Java">
+      <created>1687695048605</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687695048605</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Building Binary Tree from given Pre,in and post order array." />
@@ -284,7 +306,8 @@
     <MESSAGE value="Cycle Detection, topology sort and Dijkstra's Algorithms" />
     <MESSAGE value="Bellman ford and Kosaraju algorithms" />
     <MESSAGE value="Bridge and Articular Point class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bridge and Articular Point class" />
+    <MESSAGE value="Bit Manipulation in Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bit Manipulation in Java" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA_JAVA$Bit.ic" NAME="Bit Coverage Results" MODIFIED="1687524269953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
