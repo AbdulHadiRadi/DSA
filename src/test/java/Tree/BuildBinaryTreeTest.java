@@ -29,15 +29,15 @@ class BuildBinaryTreeTest {
         PrintTree.printInOrder(preRoot);
         Assertions.assertEquals(10, preRoot.val);
     }
-//    @Test
-//    public void testInOrder(){
-//        PrintTree.printPreOrder(inRoot);
-//        Assertions.assertEquals(10, inRoot.val);
-//    }
-//    @Test
-//    public void testPostOrder(){
-//        PrintTree.printInOrder(postRoot);
-//        Assertions.assertEquals(10, postRoot.val);
-//    }
+    @Test
+    public void testInOrder(){
+        PrintTree.printPreOrder(inRoot);
+        Assertions.assertEquals(10, inRoot.val);
+    }
+    @Test
+    public void testPostOrder(){
+        PrintTree.printInOrder(postRoot);
+        Assertions.assertEquals(10, postRoot.val);
+    }
 
 }

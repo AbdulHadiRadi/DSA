@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69117ab2-d918-4c6b-a473-62b8ccae6a49" name="Changes" comment="Bit Manipulation in Java" />
+    <list default="true" id="69117ab2-d918-4c6b-a473-62b8ccae6a49" name="Changes" comment="Bit Manipulation in Java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BitManipulation/Bit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BitManipulation/Bit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tree/BuildBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tree/BuildBinaryTreeTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,6 +230,28 @@
       <workItem from="1687595886726" duration="5860000" />
       <workItem from="1687693904909" duration="598000" />
       <workItem from="1687694771543" duration="879000" />
+      <workItem from="1688810185549" duration="594000" />
+      <workItem from="1689082842776" duration="1247000" />
+      <workItem from="1689140080829" duration="594000" />
+      <workItem from="1689432054030" duration="6000" />
+      <workItem from="1689753526517" duration="1473000" />
+      <workItem from="1689936532967" duration="1769000" />
+      <workItem from="1690118282380" duration="1045000" />
+      <workItem from="1690220781080" duration="1124000" />
+      <workItem from="1691660864083" duration="649000" />
+      <workItem from="1692250683068" duration="590000" />
+      <workItem from="1693921573792" duration="552000" />
+      <workItem from="1696019051802" duration="120000" />
+      <workItem from="1699303144970" duration="1791000" />
+      <workItem from="1699642416521" duration="38000" />
+      <workItem from="1699643416093" duration="1758000" />
+      <workItem from="1700012526052" duration="243000" />
+      <workItem from="1701003705300" duration="3802000" />
+      <workItem from="1701480311880" duration="306000" />
+      <workItem from="1702034393777" duration="30000" />
+      <workItem from="1705793056271" duration="1831000" />
+      <workItem from="1706293026652" duration="549000" />
+      <workItem from="1707830036183" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="Building Binary Tree from given Pre,in and post order array.">
       <created>1679941480187</created>

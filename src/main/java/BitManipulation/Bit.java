@@ -119,12 +119,12 @@ public class Bit {
         System.out.println(res);
     }
     public static void main(String [] args){
-//        updateBit(5,0);
-//        oddEven(5);
-//        swap(5,9);
-//        complementOf2(3);
-//        countBits(13);
-//        numberBitsConvert(22, 27);
+        updateBit(5,0);
+        oddEven(5);
+        swap(5,9);
+        complementOf2(3);
+        countBits(13);
+        numberBitsConvert(22, 27);
         System.out.println(reverseBits(4));
         int [] nums = {2,4,2,8,4};
         getDistinct(nums);
